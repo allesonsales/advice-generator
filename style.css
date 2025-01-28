@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+    background: var(--Dark-Blue);
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    font-weight: 800;
+}
+
+.container {
+    background: var(--Dark-Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    color: var(--Light-Cyan);
+    border-radius: 15px;
+    max-width: 460px;
+    min-width: 380px;
+    box-shadow: 10px 30px 50px hsla(0, 0%, 2%, 0.2);
+}
+
+.advice-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-id {
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+
+.advice-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    transition: ease-in-out .5s;
+}
+
+.advice-wrapper {
+    width: 100%;
+    height: 25px;
+    background: url(./images/pattern-divider-mobile.svg) no-repeat center;
+    margin-top: 2rem;
+}
+
+.advice-button {
+    padding: 1rem;
+    border-radius: 50px;
+    background: var(--Neon-Green);
+    background-position: center center;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.advice-button:hover {
+    background: var(--Grayish-Blue);
+    transition: ease-in-out .5s;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin: 1rem;
+    color: var(--Neon-Green);
+}
+
+    .attribution a {
+    color: var(--Light-Cyan); 
+}
