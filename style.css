@@ -85,6 +85,7 @@ main {
     cursor: pointer;
 }
 
+
 .advice-button:hover {
     background: var(--Grayish-Blue);
     transition: ease-in-out .5s;
