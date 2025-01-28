@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/allesonsales/advice-generator)
+- [Live Site URL](https://allesonsales.github.io/advice-generator/)
 
 ## My process
 
@@ -50,4 +50,4 @@ This project made my interaction with api's easier, it also gave me the challeng
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/allesonsales)
+- Frontend Mentor - [@AllesonSales](https://www.frontendmentor.io/profile/allesonsales)
