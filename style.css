@@ -85,9 +85,13 @@ main {
     cursor: pointer;
 }
 
-
 .advice-button:hover {
     background: var(--Grayish-Blue);
+    transition: ease-in-out .5s;
+}
+
+.advice-button:hover img {
+    transform: rotate(45deg);
     transition: ease-in-out .5s;
 }
 
@@ -96,6 +100,8 @@ main {
     text-align: center;
     margin: 1rem;
     color: var(--Neon-Green);
+    position: fixed;
+    bottom: 1rem;
 }
 
     .attribution a {
